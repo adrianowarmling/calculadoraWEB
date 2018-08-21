@@ -1,0 +1,43 @@
+
+/*Css do visor da calculadora*/
+#visor {
+    background-color: lightblue;
+    text-align: right;
+    color: black;
+ }
+ /*Css tabela*/
+ table {
+    margin: auto;
+
+ }
+ 
+ form fieldset {
+    margin: 10px auto 10px auto;
+    width: 1%;
+    border: solid black 1px;
+    padding: 2%;
+    margin-bottom: 10px;
+ }
+ 
+ form input {
+    width: 100%;
+    border: traced rgb(230, 8, 8) 1px;
+    font-size: 11px;
+    margin-bottom: 10px;
+ }
+ 
+ form input.num {
+    display: block;
+    width: 26px;
+    height: 26px;
+    background-color: lightgray;
+    color: black;
+ }
+ 
+ form input.oper {
+    display: block;
+    width: 26px;
+    height: 26px;
+    background-color: lightblue;
+    color: black;
+ }
